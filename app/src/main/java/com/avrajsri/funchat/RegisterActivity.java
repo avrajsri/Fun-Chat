@@ -118,7 +118,7 @@ public class RegisterActivity extends AppCompatActivity {
                             });
                         }
                         else {
-                            Toast.makeText(RegisterActivity.this, "You can't register with this email or password", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(RegisterActivity.this, "You Can't Register With This Email or Password", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
