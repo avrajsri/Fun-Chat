@@ -63,9 +63,9 @@ public class RegisterActivity extends AppCompatActivity {
                 String txt_password = password.getText().toString();
 
                 if (TextUtils.isEmpty(txt_username) || TextUtils.isEmpty(txt_email) || TextUtils.isEmpty(txt_password)) {
-                    Toast.makeText(RegisterActivity.this, "All fileds are required", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "All Fileds Are Required", Toast.LENGTH_SHORT).show();
                 } else if (txt_password.length() < 6) {
-                    Toast.makeText(RegisterActivity.this, "password must be at least 6 characters", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Password Must Be at Least 6 Characters", Toast.LENGTH_SHORT).show();
                 } else {
 
                     Toast toast = Toast.makeText(getApplicationContext(), "Welcome To Fun Chat", Toast.LENGTH_LONG);
@@ -77,7 +77,6 @@ public class RegisterActivity extends AppCompatActivity {
                     toast.show();
 
                     register(txt_username, txt_email, txt_password);
-                    Toast.makeText(RegisterActivity.this, "Please Wait...", Toast.LENGTH_SHORT).show();
 
                 }
             }
@@ -109,6 +108,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()) {
                                         saveDisplayName();
+                                        Toast.makeText(RegisterActivity.this, "Please Wait...", Toast.LENGTH_SHORT).show();
                                         Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
                                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                         startActivity(intent);
@@ -116,7 +116,8 @@ public class RegisterActivity extends AppCompatActivity {
                                     }
                                 }
                             });
-                        } else {
+                        }
+                        else {
                             Toast.makeText(RegisterActivity.this, "You can't register with this email or password", Toast.LENGTH_SHORT).show();
                         }
                     }
