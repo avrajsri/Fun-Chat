@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Welcome to FunChat"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginVertical="60dp"
+        android:gravity="center"
+        android:src="@drawable/flash" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="login"
+            android:background="@drawable/rounded_btn"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/rounded_btn"
+            android:padding="15dp"
+            android:text="register"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

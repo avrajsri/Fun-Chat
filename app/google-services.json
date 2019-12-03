@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001951883806",
+    "firebase_url": "https://fun-chat-avr.firebaseio.com",
+    "project_id": "fun-chat-avr",
+    "storage_bucket": "fun-chat-avr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001951883806:android:4a6f4e2882213fabfcf40f",
+        "android_client_info": {
+          "package_name": "com.avrajsri.funchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001951883806-r3hat8ip1d4sa9mmq6gojvcqamivllh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avrajsri.funchat",
+            "certificate_hash": "7f4c4731c59f1d6ae9b51f0a4d471581dabb3119"
+          }
+        },
+        {
+          "client_id": "1001951883806-ue6qaiaebegcba60r4ubv98a062mi0q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQOAciIlhlBvqHafeMu_X7qymODbZEYYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001951883806-ue6qaiaebegcba60r4ubv98a062mi0q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
