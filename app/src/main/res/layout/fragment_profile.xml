@@ -67,6 +67,7 @@
 
             </LinearLayout>
 
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -74,8 +75,8 @@
                 android:layout_marginTop="50dp"
                 android:layout_below="@+id/profile_image"
                 android:text="Admin Anand">
-
             </TextView>
+            -->
 
         </RelativeLayout>
 
