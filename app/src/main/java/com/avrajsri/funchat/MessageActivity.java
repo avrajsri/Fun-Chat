@@ -210,6 +210,8 @@ public class MessageActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 User user = dataSnapshot.getValue(User.class);
                 if (notify) {
+                    //final String uname = user.getUsername();
+                    //Log.d("qwerty", uname);
                     sendNotifiaction(receiver, user.getUsername(), msg);
                 }
                 notify = false;

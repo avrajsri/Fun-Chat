@@ -72,7 +72,6 @@ public class GroupActivity extends AppCompatActivity {
 
     }
 
-
     private void sendMessage() {
 
         String input = mInputText.getText().toString();
